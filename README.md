@@ -30,7 +30,7 @@
 
 
 
-Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for [ERPNext](https://erpnext.com)
+Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for [SupoERP](https://erpnext.com)
 
 ### Table of Contents
 * [Installation](https://frappeframework.com/docs/user/en/installation)

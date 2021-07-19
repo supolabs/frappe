@@ -51,13 +51,13 @@ class TestFullTextSearch(unittest.TestCase):
 		# Update existing index
 		self.index.update_index({
 			'name': "sw/erpnext",
-			'content': """AwesomeERPNext"""
+			'content': """AwesomeSupoERP"""
 		})
 
 		res = self.index.search("CommonSearchTerm")
 		self.assertTrue('sw/erpnext' not in res)
 
-		res = self.index.search("AwesomeERPNext")
+		res = self.index.search("AwesomeSupoERP")
 		self.assertEqual(res[0], "sw/erpnext")
 
 		# Update new doc
@@ -114,9 +114,9 @@ def get_documents():
 
 	docs.append({
 		'name': "sw/erpnext",
-		'content': """ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by
+		'content': """SupoERP is a free and open-source integrated Enterprise Resource Planning software developed by
 			Frappe Technologies Pvt. Ltd. and is built on MariaDB database system using a Python based server-side framework.
-			ERPNext is a generic ERP software used by manufacturers, distributors and services companies. CommonSearchTerm"""
+			SupoERP is a generic ERP software used by manufacturers, distributors and services companies. CommonSearchTerm"""
 	})
 
 	docs.append({

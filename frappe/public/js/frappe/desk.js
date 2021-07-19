@@ -510,7 +510,7 @@ frappe.Application = Class.extend({
 		// 		[<version>, <change_log in markdown>],
 		// 	],
 		// 	"description": "ERP made simple",
-		// 	"title": "ERPNext",
+		// 	"title": "SupoERP",
 		// 	"version": "12.2.0"
 		// }];
 
